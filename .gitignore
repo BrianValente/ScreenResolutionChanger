@@ -2,3 +2,5 @@
 .gradle
 ScreenResolutionChanger.iml
 app/app.iml
+build
+app/build
