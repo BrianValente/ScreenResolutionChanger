@@ -1,0 +1,37 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.brianvalente.screenresolutionchanger">
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name=".App">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ResolutionSettingsActivity"
+            android:label="@string/resolution_settings"
+            android:theme="@style/SettingsActivity"/>
+        <!--<activity
+            android:name=".Dialog"
+            android:label="@string/dialog_resolution_keep_title"
+            android:theme="@android:style/Theme.Material.Light.Dialog" />-->
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="f7f35f6ca95ccd57ca5ea79f49dd3850d17ade7f" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

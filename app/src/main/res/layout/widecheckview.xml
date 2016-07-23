@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="46dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:background="?android:selectableItemBackground"
+    android:clickable="true"
+    android:id="@+id/widecheckview">
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:drawableTint="@color/colorAccent"
+        android:id="@+id/checkbox"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="72dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WideCheckView rocks!"
+            android:textColor="@color/color_primary_text_on_white"
+            android:textSize="16sp"
+            android:id="@+id/title"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description of this checkbox."
+            android:textColor="@color/color_secondary_text_on_white"
+            android:textSize="12sp"
+            android:visibility="gone"
+            android:id="@+id/summary"/>
+    </LinearLayout>
+
+</RelativeLayout>

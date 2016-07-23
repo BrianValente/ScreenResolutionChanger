@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorNavigationBar">#555555</color>
+    <color name="colorBackground">#ffffff</color>
+
+    <color name="color_primary_text_on_white">#000000</color>
+    <color name="color_secondary_text_on_white">#888888</color>
+    <color name="color_bnb_item_inactive">#aaaaaa</color>
+</resources>

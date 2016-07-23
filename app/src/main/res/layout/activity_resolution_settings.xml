@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp">
+    <com.brianvalente.screenresolutionchanger.widget.WideCheckView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:wcv_title="@string/resolution_settings_scaledpi"
+        app:wcv_key="resolution_scaledpi"/>
+</LinearLayout>

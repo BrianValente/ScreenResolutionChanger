@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FloatingActionButton">
+        <attr name="fab_color" format="color" />
+        <attr name="fab_icon" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="BottomNavigationBar">
+        <attr name="bnb_defaultItem" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="BottomNavigationBarItem">
+        <attr name="bnbi_title" format="string" />
+        <attr name="bnbi_icon" format="integer" />
+        <attr name="bnbi_layout" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="WideCheckView">
+        <attr name="wcv_title" format="string" />
+        <attr name="wcv_summary" format="string" />
+        <attr name="wcv_key" format="string" />
+    </declare-styleable>
+</resources>

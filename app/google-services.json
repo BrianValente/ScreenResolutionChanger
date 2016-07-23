@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "33618814362",
+    "firebase_url": "https://screen-resolution-changer.firebaseio.com",
+    "project_id": "screen-resolution-changer",
+    "storage_bucket": "screen-resolution-changer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33618814362:android:6ec1376d0ccaf22a",
+        "android_client_info": {
+          "package_name": "com.brianvalente.screenresolutionchanger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33618814362-dr9joefj8o0oc02f7cvnt8la7ieufuk4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSXdUkQVIdKFwfO1L_ZB1_9A6yIJ4-UTY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

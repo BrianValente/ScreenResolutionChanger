@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:elevation="8dp"
+    android:background="#ffffff"
+    android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/color_primary_text_on_white"
+                android:text="Title"
+                android:textSize="24sp"
+                android:id="@+id/title"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="24dp"
+                android:text="Message"
+                android:textColor="@color/color_secondary_text_on_white"
+                android:id="@+id/message"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/content"
+            android:layout_toRightOf="@+id/content">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                style="?android:borderlessButtonStyle"
+                android:text="Accept"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/positive"
+                android:padding="0dp"
+                android:layout_margin="0dp"/>
+        </LinearLayout>
+</RelativeLayout>

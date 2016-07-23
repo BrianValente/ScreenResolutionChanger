@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Screen Resolution Changer</string>
+    <string name="app_name_full">Screen Resolution Changer</string>
+    <string name="app_name_full_linebreak">Screen Resolution \nChanger</string>
+
+    <string name="resolution">Resolution</string>
+    <string name="resolutions">Resolutions</string>
+    <string name="dpi">DPI</string>
+
+    <string name="dialog_resolution_keep_title">Keep new resolution?</string>
+    <string name="dialog_resolution_keep_message">Will be reverted in %1$d</string>
+    <string name="dialog_resolution_keep_btn_positive">Keep</string>
+    <string name="dialog_resolution_keep_btn_negative">Restore</string>
+
+    <string name="resolution_settings">Resolution settings</string>
+    <string name="resolution_settings_scaledpi">Scale UI automatically</string>
+</resources>
