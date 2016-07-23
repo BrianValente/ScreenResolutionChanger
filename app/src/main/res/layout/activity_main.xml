@@ -81,12 +81,15 @@
             android:layout_height="match_parent"
             android:id="@+id/bnb_resolutions"
             app:bnbi_title="@string/resolution"
-            app:bnbi_icon="@drawable/bnb_ic_resolution"/>
+            app:bnbi_icon="@drawable/bnb_ic_resolution"
+            android:background="?android:selectableItemBackgroundBorderless" />
         <com.brianvalente.screenresolutionchanger.widget.BottomNavigationBarItem
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/bnb_dpi"
             app:bnbi_title="@string/dpi"
-            app:bnbi_icon="@drawable/bnb_ic_dpi"/>
+            app:bnbi_icon="@drawable/bnb_ic_dpi"
+            android:clickable="true"
+            android:background="?android:selectableItemBackgroundBorderless"/>
     </com.brianvalente.screenresolutionchanger.widget.BottomNavigationBar>
 </RelativeLayout>

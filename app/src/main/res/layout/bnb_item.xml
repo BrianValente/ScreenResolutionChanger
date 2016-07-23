@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="56dp"
-    android:clickable="true"
-    android:background="?android:selectableItemBackgroundBorderless">
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
     <ImageView
         android:layout_width="18dp"
         android:layout_height="18dp"
@@ -23,4 +19,4 @@
         android:textColor="@color/color_bnb_item_inactive"
         android:textSize="12.5sp"
         android:id="@+id/label"/>
-</RelativeLayout>
+</merge>

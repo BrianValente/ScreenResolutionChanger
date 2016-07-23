@@ -79,8 +79,9 @@ public class BottomNavigationBarItem extends RelativeLayout {
                 setLayoutParams(params);
 
                 LayoutInflater inflater = LayoutInflater.from(mContext);
-                View view = inflater.inflate(R.layout.bnb_item, BottomNavigationBarItem.this, false);
-                addView(view);
+                View view = inflater.inflate(R.layout.bnb_item, BottomNavigationBarItem.this, true);
+
+                //addView(view);
 
                 mIconIV              = (ImageView)           view.findViewById(R.id.icon);
                 mLabelTV             = (TextView)            view.findViewById(R.id.label);
@@ -88,6 +89,8 @@ public class BottomNavigationBarItem extends RelativeLayout {
 
                 if (mIcon != null)  mIconIV.setImageDrawable(mIcon);
                 if (mLabel != null) mLabelTV.setText(mLabel);
+
+                setClickable(true);
 
                 getViewTreeObserver().removeOnGlobalLayoutListener(this);
             }
@@ -129,5 +132,9 @@ public class BottomNavigationBarItem extends RelativeLayout {
         animation.setInterpolator(new AccelerateDecelerateInterpolator());
         animation.setDuration(duration);
         startAnimation(animation);
+    }
+
+    public View getView() {
+        return null;
     }
 }

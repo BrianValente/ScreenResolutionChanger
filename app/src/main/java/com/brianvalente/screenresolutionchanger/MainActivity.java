@@ -10,7 +10,9 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
+import android.widget.Toast;
 
+import com.brianvalente.screenresolutionchanger.widget.BottomNavigationBarItem;
 import com.brianvalente.screenresolutionchanger.widget.FloatingActionButton;
 
 import java.io.DataInputStream;
@@ -39,6 +41,8 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        BottomNavigationBarItem BnbiDpi = (BottomNavigationBarItem) findViewById(R.id.bnb_dpi);
+
         mSettingsFAB   = (FloatingActionButton) findViewById(R.id.fab_settings);
         mResolutionsRV = (RecyclerView)         findViewById(R.id.resolutionsRV);
 
@@ -56,6 +60,13 @@ public class MainActivity extends Activity {
         mResolutionsRV.setHasFixedSize(true);
         mResolutionsRV.setLayoutManager(mLayoutManager);
         mResolutionsRV.setAdapter(mResolutionsAdapter);
+
+        BnbiDpi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this, "Coming soon!", Toast.LENGTH_LONG).show();
+            }
+        });
     }
 
     void changeResolution(Resolution resolution, boolean showConfirmationDialog) {
